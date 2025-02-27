@@ -1,0 +1,10 @@
+namespace_id: "b317b0af-56f6-4970-9fc9-2a36b43123dc"
+host: "192.168.84.10"
+port: 8848
+data_id: "tkshop_user_srv.json"
+group: "pro"
+timeout_ms: 5000
+not_load_cache_at_start: true
+log_dir: "tmp/nacos/log"
+cache_dir: "tmp/nacos/cache"
+log_level: "info"

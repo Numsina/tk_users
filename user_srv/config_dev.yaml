@@ -1,0 +1,10 @@
+namespace_id: "0ebc2353-e9ea-4a1f-814e-b1eee04c72cb"
+host: "192.168.84.10"
+port: 8848
+data_id: "tk_user_srv.json"
+group: "dev"
+timeout_ms: 5000
+not_load_cache_at_start: true
+log_dir: "tmp/nacos/log"
+cache_dir: "tmp/nacos/cache"
+log_level: "debug"

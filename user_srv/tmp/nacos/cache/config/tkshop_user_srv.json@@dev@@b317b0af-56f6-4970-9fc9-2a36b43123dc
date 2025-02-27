@@ -1,0 +1,33 @@
+{
+  "mysql": {
+    "host": "192.168.84.10",
+    "port": 13306,
+    "username": "root",
+    "password": "root",
+    "dbname": "tk_user_srv"
+  },
+  "redis": {
+    "host": "192.168.84.10",
+    "port": 6379,
+    "password": ""
+  },
+  "jwt": {
+    "key": "64d4R0yfBgtQARI8VZ6Rc6vII50mIbJp"
+  },
+  "consul": {
+    "host": "192.168.84.10",
+    "port": 8500,
+    "name": "tkshop_user_srv",
+    "interval": "10s",
+    "timeout": "10s",
+    "DeregisterCriticalServiceAfter": "1m",
+    "address":"192.168.84.1"
+  },
+  "Jaeger": {
+    "host": "192.168.84.10",
+    "port": 6831,
+    "name": "tkshop_user_srv",
+    "param": 1,
+    "log_spans": true
+  }
+}

@@ -1,0 +1,43 @@
+syntax="proto3";
+
+package user;
+
+option go_package="/users";
+
+service UserService {
+  rpc Register(RegisterReq) returns (RegisterResp) {}
+  rpc Login(LoginReq) returns (LoginResp) {}
+  rpc GetUserByEmail(GetUserByEmailReq) returns (GetUserByEmailResp) {}
+}
+
+message RegisterReq {
+  string email = 1;
+  string password = 2;
+  string confirm_password = 3;
+}
+
+message RegisterResp {
+  int32 user_id = 1;
+}
+
+message LoginReq {
+  string email= 1;
+  string password = 2;
+}
+
+message LoginResp {
+  int32 user_id = 1;
+}
+
+message GetUserByEmailReq {
+  string email = 1;
+}
+
+message GetUserByEmailResp {
+  string Email = 1;  
+  string	NickName = 2;       
+  string	Description = 3;    
+  string	Avatar = 4;         
+  int64	BirthDay = 5;       
+  string	Address = 6;       
+}
