@@ -2,8 +2,6 @@ package initiallize
 
 import (
 	"fmt"
-	"github.com/Numsina/tk_users/user_srv/pkg/gormx"
-	"gorm.io/plugin/prometheus"
 	"log"
 	"os"
 	"time"
@@ -11,6 +9,9 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
+	"gorm.io/plugin/prometheus"
+
+	"github.com/Numsina/tk_users/user_srv/pkg/gormx"
 )
 
 var db *gorm.DB

@@ -5,9 +5,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Numsina/tk_users/user_srv/logger"
 	"github.com/go-sql-driver/mysql"
 	"gorm.io/gorm"
+
+	"github.com/Numsina/tk_users/user_srv/logger"
 )
 
 var ErrRecordNotFound = errors.New("记录不存在")

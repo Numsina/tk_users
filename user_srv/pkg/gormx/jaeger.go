@@ -2,6 +2,7 @@ package gormx
 
 import (
 	"fmt"
+
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/trace"
 	"gorm.io/gorm"

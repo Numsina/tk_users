@@ -1,12 +1,13 @@
 package api
 
 import (
-	"github.com/Numsina/tk_users/user_web/tools"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
+
+	"github.com/Numsina/tk_users/user_web/tools"
 )
 
 func checkError(err error, ctx *gin.Context) {

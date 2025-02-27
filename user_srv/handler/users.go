@@ -3,12 +3,12 @@ package handler
 import (
 	"context"
 	"errors"
+
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
-	"google.golang.org/grpc/metadata"
-
 	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
 	"github.com/Numsina/tk_users/user_srv/dao"
